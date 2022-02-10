@@ -1,0 +1,57 @@
+#main-form {
+	display: flex;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	width: 50vw;
+}
+
+fieldset {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 3em;
+}
+
+fieldset div {
+	display: flex;
+	flex-direction: column;
+	gap: .3em;
+	width: 12em;
+	margin-top: 1em;
+}
+
+input {
+	text-indent: .5em;
+}
+
+#info-factura, #info-destino, #info-pago {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#info-factura {
+	width: 40em;
+}
+
+#info-destino, #info-pago {
+	align-self:flex-start;
+	width: 27em;
+}
+
+#form-btn{
+	display:flex;
+	justify-content: flex-end;
+	margin-top: 1em;
+}
+
+#form-btn button {
+	background-color: red;
+	align-self: flex-end;
+}

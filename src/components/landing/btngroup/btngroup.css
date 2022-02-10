@@ -1,0 +1,33 @@
+button {
+	border: none;
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	padding: .5em;
+	width: 8em;
+}
+
+#btn-1{
+	background-color: red;
+}
+
+#btn-2 {
+	background-color: blue;
+}
+
+#btn-debug {
+	background-color: violet;
+}
+
+.btn-group{
+	display: flex;
+	justify-content: space-around;
+	padding: 1em 0em;
+	width: 20em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
